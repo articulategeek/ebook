@@ -1,0 +1,18 @@
+
+<nav class="navbar navbar-light" style="background-color: #f8f9fa;">
+  
+  <%= link_to 'eBook Store', root_path, class: 'navbar-brand' %>
+  
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav navbar-right">
+        <% if current_user %>
+        <li><%= link_to 'Profile', edit_user_registration_path %></li>
+        <li><%= link_to 'Log Out', destroy_user_session_path, method: :delete %></li>
+        <% else %>
+        <li><%= link_to 'Log In', new_user_session_path %></li>
+        <% end %>
+    </ul>
+  </div>
+</nav>
+  
+  
