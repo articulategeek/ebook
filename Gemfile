@@ -54,6 +54,15 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+
 gem 'simple_form'
 
 gem 'devise'
+
+gem "font-awesome-rails"
+
+gem 'font-awesome-sass', '~> 5.12.0'
+
+gem 'auto_html', '~>1.6.4'
+
+gem 'rubocop', '<= 0.64.0'
