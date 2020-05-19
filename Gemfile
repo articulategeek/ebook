@@ -66,3 +66,9 @@ gem 'font-awesome-sass', '~> 5.12.0'
 gem 'auto_html', '~>1.6.4'
 
 gem 'rubocop', '<= 0.64.0'
+
+gem 'therubyracer'
+
+gem 'less-rails'
+
+gem 'libv8', '~> 4.5', '>= 4.5.95.5'
