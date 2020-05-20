@@ -67,8 +67,8 @@ gem 'auto_html', '~>1.6.4'
 
 gem 'rubocop', '<= 0.64.0'
 
-gem 'therubyracer'
-
 gem 'less-rails'
 
-gem 'libv8', '~> 4.5', '>= 4.5.95.5'
+gem 'therubyracer', '~> 0.12.3'
+
+gem 'libv8', '~> 3.16.14.15'
